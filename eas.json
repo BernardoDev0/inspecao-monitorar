@@ -1,0 +1,29 @@
+{
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://zbadjexozebxwqharawe.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpiYWRqZXhvemVieHdxaGFyYXdlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI4ODgyMjYsImV4cCI6MjA3ODQ2NDIyNn0.YxOhYdL3UagROrcpPWNdbTM1S3RXntVRHC94ab5UO0Q"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://zbadjexozebxwqharawe.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpiYWRqZXhvemVieHdxaGFyYXdlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI4ODgyMjYsImV4cCI6MjA3ODQ2NDIyNn0.YxOhYdL3UagROrcpPWNdbTM1S3RXntVRHC94ab5UO0Q"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
+
